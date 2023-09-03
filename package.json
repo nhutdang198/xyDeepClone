@@ -1,0 +1,25 @@
+{
+  "name": "xy-deep-clone",
+  "version": "0.0.1",
+  "description": "**xyDeepClone** Deeply clones an object, including nested objects and arrays, creating a completely independent copy of the original object.",
+  "main": "xyDeepClone.js",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "build": "npx tsc xyDeepClone.ts"
+  },
+  "author": "nhutdm",
+  "license": "MIT",
+  "keywords": [
+    "xy-deep-clone",
+    "xy deep clone",
+    "deep clone",
+    "deep clone object",
+    "deep clone array"
+  ]
+}
