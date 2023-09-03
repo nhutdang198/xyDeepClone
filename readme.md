@@ -14,14 +14,33 @@ To use xyDeepClone, you'll need to include the provided TypeScript file in your 
    ```typescript
    import { xyDeepClone } from 'xy-deep-clone'
 
-   xyDeepClone
+   const originalObject = {
+      name: 'John',
+      age: 30,
+      address: {
+         street: '123 Main St',
+         city: 'Anytown',
+      },
+      hobbies: ['Reading', 'Gardening'],
+   };
+   const clonedObject = xyDeepClone(originalObject)
 
 2. Import the `xyDeepClone` class into your Javascript code:
 
    ```javascript
    const { xyDeepClone } = require("xy-deep-clone")
 
-   xyDeepClone
+      const originalObject = {
+      name: 'John',
+      age: 30,
+      address: {
+         street: '123 Main St',
+         city: 'Anytown',
+      },
+      hobbies: ['Reading', 'Gardening'],
+   };
+   const clonedObject = xyDeepClone(originalObject)
+
 
 ## Support Me
 

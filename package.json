@@ -1,6 +1,6 @@
 {
   "name": "xy-deep-clone",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "**xyDeepClone** Deeply clones an object, including nested objects and arrays, creating a completely independent copy of the original object.",
   "main": "xyDeepClone.js",
   "devDependencies": {
